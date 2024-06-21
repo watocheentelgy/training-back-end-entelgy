@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:user-entelgy-data-service:user-entelgy-data-service-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../user-entelgy-data-service-api/src/main/java"
+}
+
+group = "user.entelgy.data.service"

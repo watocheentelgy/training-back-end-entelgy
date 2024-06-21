@@ -1,0 +1,4 @@
+Bundle-Name: user-entelgy-rest
+Bundle-SymbolicName: user.entelgy.rest
+Bundle-Version: 1.0.0
+Liferay-Configuration-Path: /configuration

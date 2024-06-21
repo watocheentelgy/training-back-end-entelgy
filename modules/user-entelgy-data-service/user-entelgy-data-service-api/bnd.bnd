@@ -1,0 +1,10 @@
+Bundle-Name: user-entelgy-data-service-api
+Bundle-SymbolicName: user.entelgy.data.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	user.entelgy.data.service.exception,\
+	user.entelgy.data.service.model,\
+	user.entelgy.data.service.service,\
+	user.entelgy.data.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../user-entelgy-data-service-service/service.xml

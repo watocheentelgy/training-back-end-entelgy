@@ -1,0 +1,4 @@
+Bundle-Name: user-entelgy-business-service
+Bundle-SymbolicName: user.entelgy.business.service
+Bundle-Version: 1.0.0
+Export-Package: user.entelgy.business.service
