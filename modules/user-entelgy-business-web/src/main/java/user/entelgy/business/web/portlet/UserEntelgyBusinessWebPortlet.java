@@ -1,6 +1,6 @@
 package user.entelgy.business.web.portlet;
 
-import user.entelgy.business.service.UserEntelgyBusinessService;
+import user.entelgy.business.service.api.UserEntelgyBusinessService;
 import user.entelgy.business.web.constants.UserEntelgyBusinessWebPortletKeys;
 
 import com.liferay.portal.kernel.log.Log;
@@ -48,5 +48,6 @@ public class UserEntelgyBusinessWebPortlet extends MVCPortlet {
 
 		super.doView(renderRequest, renderResponse);
 		LOG.info("countUserEntely: " + userEntelgyBusinessService.countUserEntely());
+		
 	}
 }
